@@ -26,9 +26,6 @@ jobs:
       - name: npm install
         run: npm install
 
-      - name: nodejs-legacy install
-        run: sudo apt-get install nodejs-legacy
-
       - name: npm start
         run: npm start    
 
