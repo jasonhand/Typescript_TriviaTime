@@ -4,8 +4,8 @@ const Header = () => {
 
   return (
     <>
-      <div className='title'>TRIVIA TIME</div>
-      <img src={require("../assets/brain.png")} alt="" />
+      <div className='title'>Project Triavia</div>
+      <img src={require("../assets/logo.png")} alt="" />
     </>
   )
 }
