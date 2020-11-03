@@ -7,7 +7,7 @@ import "./App.css"
 import GameOver from './components/GameOver'
 import Progress from './components/Progress'
 
-const TOTAL_QUESTIONS = 10
+const TOTAL_QUESTIONS = 5
 
 export type AnswerObject = {
   questionNum: number,
