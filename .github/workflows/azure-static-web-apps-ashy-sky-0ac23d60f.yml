@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '15.x'
-      -name: npm install
+
+      - name: npm install
         run: npm install
 
       - name: Build And Deploy
