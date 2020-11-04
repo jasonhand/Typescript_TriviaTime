@@ -21,8 +21,9 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '15.0.1'
       - run: npm install
+      - run: npm start
 
       # End Commands added
 
