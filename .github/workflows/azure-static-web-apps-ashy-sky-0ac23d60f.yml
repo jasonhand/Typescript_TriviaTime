@@ -17,14 +17,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      # Commands added by Jason
-      - name: Install NodeJS
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: '15.0.1'
-      - run: npm install
-
-      # End Commands added
 
       - name: Build And Deploy
         id: builddeploy
